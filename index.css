@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#banner{
+	background: linear-gradient(rgba(0,53,53,0.8),#570419),url(movie_theater.png);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.banner-text{
+	text-align: center;
+	color: white;
+	padding-top: 180px;
+}
+.banner-text h1{
+	font-size: 130px;
+	font-style: cursive;
+}
+.banner-text p{
+	font-size: 20px;
+	font-style: italic;
+}
+.banner-btn{
+	margin: 70px auto 0;
+}
+.banner-btn a{
+	width: 150px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: white;
+	border: .5px solid white;
+}
+.banner-btn a:hover{
+	background-color: darkred;
+	color: black;
+}
+footer{
+	background-color: black;
+	height: 40vh;
+	color: white;
+	text-align: center;
+}
+.footer_nav{
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	padding: 30px;
+}
+footer a{
+	justify-content: center;
+}
+.footer_nav a{
+	color: white;
+	text-decoration: none;
+}
+button{
+	padding: 10px 20px;
+	margin: 0px;
+	background-color: indianred;
+}
+.footer_nav button:hover{
+	background-color: black;
+}
+footer img{
+	width: 10%;
+	height: 55px;
+	padding: 10px;
+	padding-top: 40px;
+}
+.icons{
+	margin: 10px;
+	padding-top: 10px 20px;
+}
+.icons i:hover{
+	color: indianred;
+}
+@media screen and (max-width: 600px){
+	.banner-text h1{
+		font-size: 100px;
+	}
+}

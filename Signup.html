@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign up Form</title>
+	<link rel="stylesheet" type="text/css" href="Signup.css">
+	<script src="https://kit.fontawesome.com/4dcc7868ee.js" crossorigin="anonymous"></script>
+	<link rel="icon" href="pandas_icon2.png" type="image/ico">
+
+</head>
+<body>
+	<header class="nav">
+  <div class="logo">
+    <a class="logo" href="index_page.html">
+      <img src="text_logo.png" alt="logo">
+    </a>
+  </div>
+  </header>
+
+
+	<div class="center">
+		<h1>Sign Up</h1>
+		<form method="post">
+			<div class="txt_field">
+				<input type="text" required>
+				<span></span>
+				<label>Username</label>
+			</div>
+
+			<div class="txt_field">
+				<input type="text" required>
+				<span></span>
+				<label>Email</label>
+			</div>
+
+			<div class="txt_field">
+				<input type="password" required>
+				<span></span>
+				<label>Password</label>
+			</div>
+
+			<div class="birthdate">
+				<label>Birth Date</label><br>
+	    			<input type="Date" id="birthdate" name="date" max="01-01-1900" required>
+	    			<select id="birthdate" name="Day" required>
+	    				<option>Sunday</option>
+	    				<option>Monday</option>
+	    				<option>Tuesday</option>
+	    				<option>Wednesday</option>
+	    				<option>Thursday</option>
+	    				<option>Friday</option>
+	    				<option>Saturday</option>
+	    			</select>
+			</div>
+			<br>
+			<a class="signup_link"href="Pandas.html">Sign up</a>
+			<div class="Login">
+				Have an account? <a href="Login.html">Log In</a>
+		</form>
+	</div>
+</body>
+</html>
